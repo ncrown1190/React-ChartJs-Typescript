@@ -3,6 +3,7 @@ import "./App.css";
 import BarChart from "./components/BarChart";
 import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart";
+import PracticePieChart from "./components/PracticePieChart";
 import { UserData } from "./Data";
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
       </div>
       <div className="pie" style={{ width: 300 }}>
         <PieChart chartData={userData} />
+      </div>
+      <div>
+        <PracticePieChart />
       </div>
     </div>
   );
